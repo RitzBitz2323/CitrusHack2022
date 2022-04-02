@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    padding: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    padding: 20px;
   }
   h1{
     color: whitesmoke;
@@ -17,61 +17,19 @@
     font-size: 30px;
   }
   .item1 {
-    text-align: center;
-    width: 220px;
-    height: 80px;
-    background: #75c9b7;
-    border-radius: 40px;
-    /**Center Code */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /**---**/
-    font-size: 30px;
-
-    grid-column: 2 / 2;
-
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 3 / 4;
   }
   .item2 {
-    text-align: center;
-    width: 220px;
-    height: 80px;
-    background: #75c9b7;
-    border-radius: 40px;
-    /**Center Code */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /**---**/
-    font-size: 30px;
-
-    grid-column: 4 / 4;
-
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 4 / 5;
   }
   .item3 {
-   text-align: center;
-    width: 220px;
-    height: 80px;
-    background: #75c9b7;
-    border-radius: 40px;
-    /**Center Code */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /**---**/
-    font-size: 30px;
-
-    grid-column: 6 / 6;
-
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 5 / 6;
   }
-
   .item4 {
+     grid-column: 6 / 7;
+   }
+
+  .button{
     text-align: center;
      width: 220px;
      height: 80px;
@@ -81,13 +39,11 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     /**---**/
-     font-size: 30px;
- 
-     grid-column: 6 / 6;
- 
-     color: whitesmoke;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /**---**/
+    font-size: 30px;
+
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
   .item5{
     /**Center Code */
