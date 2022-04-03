@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
     padding: 20px;
+    row-gap: 40px;
   }
   h1{
     color: whitesmoke;
@@ -52,4 +53,20 @@
     align-items: center;
     /**---**/
   }
+
+  .item6 {
+    grid-column:2 / 6;
+    grid-row: 3 / 4;
+	
+}
+.item7 {
+	grid-column:6 / 9;
+    grid-row: 2 / 4;
+
+}
+.images_space{
+    border-radius: 15%;
+    width: 700px;
+    height: 400px;
+}
  
